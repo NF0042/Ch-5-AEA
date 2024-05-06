@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- 
+Student's Name: Noah France
+Current Date: 4/9/24
+-->
+<html lang="en">
+<head>
+	<title>Position</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="css/extend05.css">
+</head>
+<body>
+
+	<div id="container">
+    
+        <!-- Use the header area for the website name or logo -->
+        <header>
+            <h1>Working with Positions</h1>
+        </header>
+
+        <!-- Use the main area to add the main content of the webpage -->
+        <main>
+            
+            <div class="box sticky">
+                
+                <h2>Sticky</h2>
+                <p>This is an example of an element with a sticky position. Its position is based on the user's scroll position.</p>
+                <!-- Use the empty paragraph element below to briefly explain how to use the sticky position. -->
+                <p>position: sticky; is like a relative element until it reaches a specified point, and then it acts like a fixed element. So, it moves with the page until it reaches a certain point, and then it stays in that position as you continue scrolling.</p>
+                
+            </div>
+            
+            <div class="box relative">
+                
+                <h2>Relative</h2>
+                <p>This is an example of an element with a relative position. It can move around a little, depending on the viewport, but it is in a position relative to itself.</p>
+                <!-- Use the empty paragraph element below to identify the values you used for the top and left properties and how it affected the relative box. -->
+                <p> If you move a relative element, it affects the layout of other elements around it, but it doesn't leave an empty space where it was.</p>
+                
+            </div>
+            
+            <div class="box fixed">
+            
+                <h2>Fixed</h2>
+                <p>This is an example of an element with a fixed position. Its position is relative to the viewport.</p>
+                <!-- Use the empty paragraph element below to identify the values you used for the top and right properties and how it affected the fixed box. -->
+                <p>A fixed element is positioned relative to the viewport, so it stays in the same place even when you scroll the page.</p>
+                
+            </div>
+            
+            <div class="box absolute">
+                
+                <h2>Absolute</h2>
+                <p>This is an example of an element with an absolute position. It is similar to the fixed position; however, it is positioned relative to the closest parent element.</p>
+                <!-- Use the empty paragraph element below to identify the values you used for the bottom and right properties and how it affected the absolute box. -->
+                <p>position: absolute; is like telling an element to find its "parent" element that has a position value of relative, absolute, or fixed. Once it finds that parent, it positions itself inside that parent element according to the top, bottom, left, and right properties you specify.</p>
+                
+            </div>
+            
+        </main>
+
+	</div>
+	
+</body>
+</html>
